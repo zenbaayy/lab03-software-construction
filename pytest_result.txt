@@ -1,0 +1,20 @@
+11 passed in 0.02s
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/work/lab03
+collecting ... collected 11 items
+
+test_checkout.py::test_checkout_works_with_every_strategy[method0-Card charged: 2500.00] PASSED [  9%]
+test_checkout.py::test_checkout_works_with_every_strategy[method1-Wallet debited: 2500.00] PASSED [ 18%]
+test_checkout.py::test_checkout_works_with_every_strategy[method2-Cash to be collected on delivery: 2500.00] PASSED [ 27%]
+test_checkout.py::test_wallet_balance_is_reduced PASSED                  [ 36%]
+test_checkout.py::test_wallet_insufficient_balance_rejected PASSED       [ 45%]
+test_checkout.py::test_non_positive_amount_rejected[0-method0] PASSED    [ 54%]
+test_checkout.py::test_non_positive_amount_rejected[0-method1] PASSED    [ 63%]
+test_checkout.py::test_non_positive_amount_rejected[0-method2] PASSED    [ 72%]
+test_checkout.py::test_non_positive_amount_rejected[-5-method0] PASSED   [ 81%]
+test_checkout.py::test_non_positive_amount_rejected[-5-method1] PASSED   [ 90%]
+test_checkout.py::test_non_positive_amount_rejected[-5-method2] PASSED   [100%]
+
+============================== 11 passed in 0.01s ==============================
